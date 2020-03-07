@@ -119,7 +119,6 @@
         private System.Windows.Forms.TextBox textBoxSample;
         private System.Windows.Forms.ListView listViewFonts;
         private System.Windows.Forms.ColumnHeader columnHeaderSample;
-        private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeaderName;
     }
 }
