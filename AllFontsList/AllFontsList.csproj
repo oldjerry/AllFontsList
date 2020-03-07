@@ -4,9 +4,20 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
-    <ApplicationIcon>Iconsmind-Outline-Font-Window.ico</ApplicationIcon>
+    <ApplicationIcon>Mcdo-Design-Cats-2-Blue-Font.ico</ApplicationIcon>
     <Authors>Jerry</Authors>
     <Company>J&amp;R</Company>
+    <PackageIcon>Mcdo-Design-Cats-2-Blue-Font.ico</PackageIcon>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+    <Version>1.0.0.1</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Desktop\Mcdo-Design-Cats-2-Blue-Font.ico">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

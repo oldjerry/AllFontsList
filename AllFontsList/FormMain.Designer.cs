@@ -71,7 +71,7 @@
             this.columnHeaderSample,
             this.columnHeaderName});
             this.listViewFonts.FullRowSelect = true;
-            this.listViewFonts.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            this.listViewFonts.GridLines = true;
             this.listViewFonts.HideSelection = false;
             this.listViewFonts.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
             listViewItem1});
@@ -81,6 +81,7 @@
             this.listViewFonts.TabIndex = 3;
             this.listViewFonts.UseCompatibleStateImageBehavior = false;
             this.listViewFonts.View = System.Windows.Forms.View.Details;
+            this.listViewFonts.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.listViewFonts_ColumnClick);
             // 
             // columnHeaderSample
             // 
